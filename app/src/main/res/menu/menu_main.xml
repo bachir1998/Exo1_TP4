@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sc.gestiononglets.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_setting"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/action_create_groupe"
+        android:orderInCategory="100"
+        android:title="@string/action_create_group"
+        android:icon="@drawable/ic_action_group"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_friend"
+        android:orderInCategory="100"
+        android:title="@string/action_friend"
+        android:icon="@drawable/ic_action_friend"
+        app:showAsAction="never"
+        />
+
+
+
+</menu>
